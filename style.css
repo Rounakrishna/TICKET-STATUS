@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* yha  se drop down ka css */
+.dropdown {
+
+  /* position: relative;
+  display: inline-block; */
+  /* margin-left: 600px; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* yha se ticket ka css */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.ticket-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* display: grid;
+  grid-template-columns: 4fr 1fr; */
+  border: 2px solid #333;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #383737;
+  border-radius: 3%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.description-box {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+.ticketme{
+  
+  /* border: 2px solid red; */
+  /* width: 50%; */
+  margin-right: 20px;
+  /* padding-right: 23px; */
+
+   
+
+}
+.krishna{
+   display: grid;
+  grid-template-columns: 1fr 2fr 1fr;  
+  
+  /* border: 2px solid rgb(51, 255, 0); */
+
+}
+#ticketStatus{
+  height: 90px;
+}
+/* dgrgr */
