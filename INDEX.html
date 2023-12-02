@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Details Website</title>
+   <link rel="stylesheet" href="krishna.css">
+</head>
+<body>
+
+  <header>
+    <h1>TICKET STATUS</h1>
+  </header>
+
+  <div class="ticket-container">
+    <div class="krishna">
+
+          <div class="ticketme">
+            <label for="ticketNo">Ticket No:</label>
+            <input type="text" id="ticketNo" placeholder="Enter ticket number">
+        </div>
+        <div class="ticketme">
+            <label for="ticketStatus">Description Box:</label>
+            <input type="text" id="ticketStatus" placeholder="Describe your problems">
+        </div>
+        <div class="ticketme">
+            <div class="dropdown">
+              <button>Status</button>
+              <div class="dropdown-content">
+                <button onclick="optionClicked(1)">Asigned to</button>
+                <button onclick="optionClicked(2)">In progress</button>
+                <button onclick="optionClicked(3)">Closed</button>
+              </div>
+            </div>
+         </div> 
+         
+    </div><button onclick="submitTicket()">Submit</button>
+  </div>
+   
+   
+ 
+   <script src="kk.js"></script>
+</body>
+</html>
